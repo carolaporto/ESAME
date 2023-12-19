@@ -1,0 +1,566 @@
+body {
+    margin: 0 0;
+    background-color: #000000;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+
+main {
+    padding-top: 20px; 
+    max-width: 100%
+}
+
+
+
+.menusinistra {
+    display: flex;
+    gap: 20px;
+}
+
+
+.grid2 {
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .grid2 img {
+    display: block;
+    margin: 30px auto 0; 
+    max-width: 100%;
+    max-height: 100vh;
+    opacity: 100%;
+    height: auto;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover; 
+
+}
+   .bloccouno img {
+    margin-left: 0;
+    max-width: 70%;
+    height: 400px;
+    object-fit:cover;
+    }
+  
+.bloccodue img {
+    margin-right: 0;
+    max-width: 70%;
+    height: 400px;
+    object-fit:cover;
+  }
+  
+  .scrittedestra{
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: 1, 1fr;
+    text-align: center;
+    gap: 400px;
+    position: absolute;
+    padding-top: 11%;
+    left: 63%;
+    text-transform: uppercase;
+    font-size: 25px;
+
+  }
+
+  .bloccodue {
+    color: #fff;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 5%;
+  }
+  .testodx a {
+  text-decoration: none;
+  color: inherit;
+}
+.testosx a {
+    text-decoration: none;
+    color: inherit;
+  }
+  .testosx{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  .bloccouno {
+    color: #fff;
+    position: relative;
+    display: inline-block;
+  }
+
+  .testodx{
+    position: absolute;
+    top: 50%;
+    right: 25%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  footer {
+    background-color: #333; 
+    color: #fff; 
+    padding: 5px;
+    text-align: center;
+}
+
+.iconesocial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    
+}
+
+.iconesocial img {
+    object-fit: contain;
+    width: 20px;
+    height: 20px;
+    margin: 5px 40px
+}
+
+.infocontatti{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+.infocontatti p {
+    font-size: 15px;
+}
+  
+.fotovino {
+    position: relative;
+}
+.fotovino img {
+    height: 550px;
+    width:100%;
+    object-fit: cover;
+    object-position: center;
+}
+.fotovino .immagine:before{
+content: "";
+background: rgba(0, 0, 0, 0.5);
+position: absolute;
+top: 0%;
+left: 0%;
+width: 100%;
+height: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    text-align: center;
+}
+.titolocentrale {
+    color: #fff;
+    grid-column: span 3;
+  }
+
+.fotogrid {
+    position: relative;
+}
+
+.fotogrid img {
+    padding-top: 40%;
+    padding-left: 19%;
+    max-width: 100%;
+    width: 60%;
+    height: 400px;
+    object-fit: cover;
+    padding-bottom: 40%;
+    opacity: 80%;
+}
+
+.testogrid {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 2;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+.tfotografia h2 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 25px;
+    padding-top: 13%;
+}
+
+.grid3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-bottom: 200px;
+    
+}
+
+.gridbook {
+    position: relative;
+}
+
+.gridbook img {
+    width: 60%;
+    height: 400px;
+    object-fit: cover;
+    margin: 20% auto 0; 
+    display: block; 
+    text-align: center;
+}
+
+ .testogridbook {
+    position: absolute;
+    top: 590px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 2;
+    text-transform: capitalize;
+    font-weight: 100;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.grid4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-bottom: 200px;
+    margin-top: 200px;
+}
+
+.gridchisiamo {
+    position: relative;
+    
+}
+
+.gridchisiamo img {
+    width: 60%;
+    height: 400px;
+    object-fit: cover;
+    margin: 20% auto 0; 
+    display: block; 
+    text-align: center;
+}
+.sottotesto {
+    position: absolute;
+    top: 700px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+.fotovino h2 {
+    position: absolute ;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    color: #fff;
+    z-index: 100;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.boxcontatti {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 60px;
+    
+}
+
+.box {
+    width: 200px;
+    padding: 60px;
+    background-color: white;
+    text-align: center;
+    border-radius: 8px;
+}
+
+
+
+.box p {
+    margin: 0;
+}
+
+.boxcontatti a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.titolocontatti {
+    margin-top: 5%;
+}
+
+.titolocontatti h2 {
+    text-align: center;
+    color: #fff;
+}
+
+.provasez {
+    position: relative;
+}
+.provasez img {
+    margin: 0;
+    height: 550px;
+    width:100%;
+    object-fit: cover;
+    object-position: center;
+}
+.provasez .immagine:before{
+    content: "";
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+.provasez h2 {
+    position: absolute ;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    color: #fff;
+    z-index: 100;
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+.testogrid a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.titolo h1 {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.testogridbook a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+  }
+  
+  header {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+    color: #fff;
+  
+  }
+  
+  header h1 {
+    font-size: 21px;
+  }
+  
+  nav {
+    font-size: 20px;
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    font-weight: bold;
+    text-transform:capitalize;
+    
+  }
+  header .logo h1 a {
+    color: #fff;
+    z-index: 5;
+    text-decoration: none;
+
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav ul li {
+    position: relative;
+  }
+  
+  nav ul a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .hamburger-lines {
+    display: block;
+    height: 26px;
+    width: 32px;
+    position: absolute;
+    top: 18px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    opacity: 0;
+  }
+  
+  .hamburger-lines .line {
+    display: block;
+    height: 4px;
+    width: 100%;
+    border-radius: 10px;
+    background: #fff;
+  }
+  
+  .hamburger-lines .line1 {
+    transform-origin: 0% 0%;
+    transition: transform 0.4s ease-in-out;
+  }
+  .hamburger-lines .line2 {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .hamburger-lines .line3 {
+    transform-origin: 0% 100%;
+    transition: transform 0.4s ease-in-out;
+  }
+  
+  input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+    transform: rotate(45deg);
+  }
+  
+  input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+    transform: scaleY(0);
+  }
+  
+  input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+    transform: rotate(-45deg);
+  }
+  
+  .checkbox {
+    position: absolute;
+    display: none;
+    height: 32px;
+    width: 32px;
+    top: 16x;
+    right: 16px;
+    z-index: 5;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  
+  @media only screen and (max-width: 600px) {
+    .checkbox {
+      display: block;
+    }
+    .provasez{
+        position: static;
+    }
+    .provatesto h2{
+        z-index: 1;
+    }
+    nav ul {
+      gap: 10px;
+      flex-direction: column;
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      background-color: #333;
+      width: 100%;
+      height: 100%;
+      justify-content: center;
+      text-align: center;
+      
+    }
+    
+    input[type="checkbox"]:checked ~ nav ul {
+      opacity: 100;
+      z-index: 2;
+    }
+  
+    .hamburger-lines {
+      opacity: 100;
+      z-index: 3;
+    }
+  
+    ul li {
+      display: block;
+    }
+  
+     .submenu {
+      width: 100%;
+      display: block;
+      position: relative;
+      padding: 10px 0;
+      margin:0;
+  }
+  .grid3 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    margin-bottom: 200px;
+    
+}
+  .testogridbook {
+   text-align: center;
+   transform: translate(-50%, -50%);
+   top: auto;
+   z-index: 1;
+  }
+ .boxcontatti {
+ display: grid;
+ height: auto;
+ padding-bottom: 20%;
+ } 
+.titolocontatti {
+ padding-top: 5%;
+}
+.scrittesinistra h2 {
+    position: relative;
+    left: 5%;
+}
+.testogrid h2 {
+    font-size: 20px;
+}
+.grid4 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    margin-bottom: 200px;
+    
+}
+
+  }
